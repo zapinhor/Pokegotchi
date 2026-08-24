@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ef5350">
+  <meta name="description" content="Um bichinho virtual Pokémon com cuidados, batalhas, capturas e minigames.">
+  <title>PokéNinho — Seu Pokémon, sua aventura</title>
+  <link rel="preconnect" href="https://raw.githubusercontent.com">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/retro.css">
+</head>
+<body>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="app">
+    <section id="starter-screen" class="starter-screen">
+      <div class="starter-copy">
+        <span class="eyebrow">POKÉNINHO VERSION 1.0</span>
+        <h1>Uma nova aventura<br>vai começar!</h1>
+        <p>Cuide, treine, explore e construa uma história que continua mesmo quando você sai.</p>
+      </div>
+      <div class="starter-panel">
+        <div class="panel-heading"><div><small>PASSO 01</small><h2>Escolha seu Pokémon</h2></div><span id="starter-count">1 / 11</span></div>
+        <div id="starter-grid" class="starter-grid"></div>
+        <label class="name-field">Como vamos chamá-lo?<input id="nickname-input" maxlength="14" placeholder="Nome do parceiro"></label>
+        <button id="start-button" class="primary-button" disabled>Começar nossa jornada <span>→</span></button>
+      </div>
+    </section>
+
+    <main id="game-screen" class="game-screen hidden">
+      <header class="topbar">
+        <a class="brand" href="#home" aria-label="PokéNinho"><span class="brand-ball"></span><strong>POKÉNINHO</strong><small>COLOR</small></a>
+        <div class="top-resources"><span>◈ <b id="coins-value">0</b></span><span>● <b id="balls-value">0</b></span><button id="settings-button" class="icon-button" aria-label="Configurações">⚙</button></div>
+      </header>
+      <div class="layout">
+        <nav class="sidebar" aria-label="Principal">
+          <button class="nav-item active" data-view="home"><span>⌂</span><em>Casa</em></button>
+          <button class="nav-item" data-view="yard"><span>♧</span><em>Quintal</em><i id="spawn-dot"></i></button>
+          <button class="nav-item" data-view="games"><span>✦</span><em>Jogos</em></button>
+          <button class="nav-item" data-view="battle"><span>⚔</span><em>Batalhar</em></button>
+          <button class="nav-item" data-view="shop"><span>▣</span><em>Loja</em></button>
+          <button class="nav-item" data-view="dex"><span>◎</span><em>Pokédex</em></button>
+        </nav>
+        <section id="view-container" class="view-container"></section>
+      </div>
+    </main>
+  </div>
+
+  <dialog id="modal" class="modal"><button id="modal-close" class="modal-close" aria-label="Fechar">×</button><div id="modal-content"></div></dialog>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
