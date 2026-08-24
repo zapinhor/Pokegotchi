@@ -1,5 +1,14 @@
 # Changelog — Pokégotchi
 
+## 3.3 — Amizade e depósito
+
+- Depósito para guardar móveis inacessíveis e recolocá-los no centro do quarto.
+- Aba de móveis separada, mantendo todos os móveis comprados recuperáveis.
+- Amizade individual de 0 a 100 para cada Pokémon.
+- Brincadeiras, alimentação, minigames e vitórias aumentam amizade.
+- Derrotas e necessidades críticas prolongadas diminuem amizade.
+- Evoluções com condições especiais passam a ser liberadas no nível 35.
+
 ## 3.2 — Status e evolução manual
 
 - Tela de status individual para Pokémon dos quartos e das Boxes, com IV, EV, XP e necessidades.
