@@ -13,7 +13,20 @@
 <body>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <div id="app">
-    <section id="starter-screen" class="starter-screen">
+    <section id="title-screen" class="title-screen">
+      <div class="title-console">
+        <div class="power-lights"><i></i><i></i></div>
+        <div class="title-logo"><small>POCKET PARTNER</small><h1>POKÉGOTCHI</h1><span>COLOR</span></div>
+        <img class="title-pokemon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" alt="Pikachu">
+        <p id="save-summary">Nenhuma jornada encontrada.</p>
+        <div class="title-actions">
+          <button id="continue-button" class="primary-button">Continuar jornada <span>▶</span></button>
+          <button id="new-game-button" class="secondary-button">Começar nova jornada</button>
+        </div>
+        <small class="title-version">VERSION 2.1 · PRESS START</small>
+      </div>
+    </section>
+    <section id="starter-screen" class="starter-screen hidden">
       <div class="starter-copy">
         <span class="eyebrow">POKÉGOTCHI VERSION 2.0</span>
         <h1>Uma nova aventura<br>vai começar!</h1>
