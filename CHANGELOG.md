@@ -4,7 +4,7 @@
 
 - Presente diário ampliado para 10 Pokébolas, 6 Grandes Bolas e 2 Ultra Bolas.
 - Seis berries sorteadas individualmente, permitindo combinações e repetições.
-- As 50 PokéCoins do presente foram mantidas.
+- A recompensa diária em dinheiro foi aumentada para 250 PokéCoins.
 
 ## 3.6 — Temporizador de sono
 
