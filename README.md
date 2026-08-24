@@ -1,4 +1,4 @@
-# PokéNinho
+# Pokégotchi
 
 Um Tamagotchi Pokémon feito apenas com HTML, CSS e JavaScript. Cuide do seu parceiro, jogue minigames, batalhe, capture visitantes no quintal e acompanhe o clima da sua região.
 
@@ -8,10 +8,13 @@ A interface **Retro Edition** combina sprites pixelados, painéis de batalha cl�
 
 - 11 Pokémon iniciais, sprites públicos da PokéAPI e Pokédex local
 - Necessidades, passagem de tempo offline, níveis, XP e evoluções
+- Mochila com comida, brinquedos, limpeza, Pokébolas e presentes diários
+- Até seis quartos ativos e armazenamento em Boxes
+- Sono em tempo real: oito horas para recuperar de 0 a 100 de energia
 - Pegar Berries, Memória Pokémon e Treino de Ataque
 - PokéMart com consumíveis, itens evolutivos e móveis para IV/EV
-- Batalhas aleatórias, líderes de ginásio e insígnias
-- Capturas temporizadas e clima local via Open-Meteo
+- Batalhas com golpes reais, aprendizado por nível e efetividade de tipos
+- Capturas com berries, três Pokébolas e encontros offline acumulados
 - Save automático e privado em `localStorage`
 - Layout responsivo, pronto para celular e desktop
 

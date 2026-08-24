@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#ef5350">
   <meta name="description" content="Um bichinho virtual Pokémon com cuidados, batalhas, capturas e minigames.">
-  <title>PokéNinho — Seu Pokémon, sua aventura</title>
+  <title>Pokégotchi — Seu Pokémon, sua aventura</title>
   <link rel="preconnect" href="https://raw.githubusercontent.com">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/retro.css">
@@ -15,7 +15,7 @@
   <div id="app">
     <section id="starter-screen" class="starter-screen">
       <div class="starter-copy">
-        <span class="eyebrow">POKÉNINHO VERSION 1.0</span>
+        <span class="eyebrow">POKÉGOTCHI VERSION 2.0</span>
         <h1>Uma nova aventura<br>vai começar!</h1>
         <p>Cuide, treine, explore e construa uma história que continua mesmo quando você sai.</p>
       </div>
@@ -29,8 +29,8 @@
 
     <main id="game-screen" class="game-screen hidden">
       <header class="topbar">
-        <a class="brand" href="#home" aria-label="PokéNinho"><span class="brand-ball"></span><strong>POKÉNINHO</strong><small>COLOR</small></a>
-        <div class="top-resources"><span>◈ <b id="coins-value">0</b></span><span>● <b id="balls-value">0</b></span><button id="settings-button" class="icon-button" aria-label="Configurações">⚙</button></div>
+        <a class="brand" href="#home" aria-label="Pokégotchi"><span class="brand-ball"></span><strong>POKÉGOTCHI</strong><small>COLOR</small></a>
+        <div class="top-resources"><span><img class="tiny-item" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/coin-case.png" alt="PokéCoins"> <b id="coins-value">0</b></span><span><img class="tiny-item" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" alt="Pokébolas"> <b id="balls-value">0</b></span><button id="settings-button" class="icon-button" aria-label="Configurações">OPT</button></div>
       </header>
       <div class="layout">
         <nav class="sidebar" aria-label="Principal">
@@ -39,6 +39,8 @@
           <button class="nav-item" data-view="games"><span>✦</span><em>Jogos</em></button>
           <button class="nav-item" data-view="battle"><span>⚔</span><em>Batalhar</em></button>
           <button class="nav-item" data-view="shop"><span>▣</span><em>Loja</em></button>
+          <button class="nav-item" data-view="inventory"><span>▤</span><em>Mochila</em></button>
+          <button class="nav-item" data-view="rooms"><span>▥</span><em>Quartos</em></button>
           <button class="nav-item" data-view="dex"><span>◎</span><em>Pokédex</em></button>
         </nav>
         <section id="view-container" class="view-container"></section>
