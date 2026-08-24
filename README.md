@@ -15,10 +15,10 @@ A interface **Retro Edition** combina sprites pixelados, painéis de batalha cl�
 - Pegar Berries, Memória Pokémon e Treino de Ataque
 - PokéMart com consumíveis, itens evolutivos e móveis para IV/EV
 - Batalhas com golpes reais, aprendizado por nível e efetividade de tipos
-- Raridades fixas por espécie e aparições influenciadas por clima, horário e temperatura
+- Todas as 1.025 espécies principais, com raridades baseadas na PokéAPI e aparições influenciadas por clima, horário e temperatura
 - Capturas com berries por tipagem, três Pokébolas, feedback visual e encontros offline acumulados
 - Pokémon shiny com chance de 1 em 200 e sprites shiny preservados no save
-- Incenso de 30 minutos para aumentar a frequência de visitantes
+- Incenso de 1 hora, gerando uma aparição a cada 5 minutos
 - Gritos oficiais da PokéAPI em encontros e batalhas, sem música de fundo
 - Cenários diurno/noturno e móveis comprados visíveis no quarto
 - Guia de ajuda acessível pelo botão `?`

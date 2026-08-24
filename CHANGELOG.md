@@ -1,5 +1,13 @@
 # Changelog — Pokégotchi
 
+## 3.5 — Pokédex completa
+
+- As 1.025 espécies principais podem aparecer no quintal, incluindo lendários e míticos.
+- Taxas de captura baseadas nos valores oficiais da PokéAPI.
+- Aparição ponderada por captura, categoria, tipagem, clima, horário e temperatura.
+- Pseudo-lendários, lendários e míticos possuem probabilidades especiais extremamente baixas.
+- Incenso ampliado para uma hora, com aparições fixas a cada cinco minutos.
+
 ## 3.4 — Presente diário
 
 - Contagem regressiva em tempo real até o próximo presente.
@@ -41,7 +49,7 @@
 - Pokémon de Gelo favorecidos abaixo de 20 °C e formas noturnas específicas no catálogo.
 - Chance shiny fixa de 1 em 200 por aparição, preservada após a captura.
 - Gritos oficiais fornecidos pela PokéAPI em encontros e batalhas, com controle de som.
-- Incenso de 30 minutos e intervalo normal de aparição reduzido para 10–90 minutos.
+- Incenso de 1 hora com aparições a cada 5 minutos; intervalo normal de 10–90 minutos.
 - Captura com bandeja de Pokébolas, indicador verde/amarelo/vermelho, percentual e animação.
 - Berries compatíveis com a tipagem destacadas e bônus refletido imediatamente na chance.
 - Cama melhorada reduzindo a recuperação completa de energia de oito para quatro horas.
