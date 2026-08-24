@@ -1,5 +1,16 @@
 # Changelog — Pokégotchi
 
+## 3.1 — Quartos e equipes
+
+- Sprite do incenso corrigido com recurso oficial da PokéAPI.
+- Móveis redimensionados e modo de organização por arrastar, com posições salvas.
+- Contadores de PokéCoins e Pokébolas ampliados.
+- Tabela interna de clima e tipos favorecidos.
+- Indicador de captura corrigido para um círculo real.
+- Ginásios permitem escolher uma equipe de até três Pokémon, com troca após desmaio.
+- Poção, Super Poção, Hiper Poção, Poção Máxima e Restauração Total adicionadas à loja.
+- Decaimento de fome, energia, felicidade e higiene mais rápido; durante o sono, o desgaste é reduzido pela metade.
+
 ## 3.0 — Mundo vivo
 
 - Raridade de aparição e dificuldade de captura fixas por espécie.

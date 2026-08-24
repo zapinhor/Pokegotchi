@@ -22,6 +22,9 @@ A interface **Retro Edition** combina sprites pixelados, painéis de batalha cl�
 - Gritos oficiais da PokéAPI em encontros e batalhas, sem música de fundo
 - Cenários diurno/noturno e móveis comprados visíveis no quarto
 - Guia de ajuda acessível pelo botão `?`
+- Móveis reposicionáveis por arrastar e posições preservadas no save
+- Equipe de até três Pokémon nas batalhas de ginásio
+- Poções oficiais da PokéAPI disponíveis na loja e utilizáveis pela Mochila
 - Save automático e privado em `localStorage`
 - Layout responsivo, pronto para celular e desktop
 
