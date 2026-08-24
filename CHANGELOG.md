@@ -1,5 +1,13 @@
 # Changelog — Pokégotchi
 
+## 3.2 — Status e evolução manual
+
+- Tela de status individual para Pokémon dos quartos e das Boxes, com IV, EV, XP e necessidades.
+- Evoluções por nível consultadas na PokéAPI e executadas somente pelo botão do treinador.
+- Itens evolutivos agora ficam na Mochila e podem ser usados no Pokémon escolhido.
+- Paleta completa dos 18 tipos aplicada aos golpes.
+- Móveis maiores e todos os móveis comprados continuam reposicionáveis.
+
 ## 3.1 — Quartos e equipes
 
 - Sprite do incenso corrigido com recurso oficial da PokéAPI.
