@@ -1,5 +1,12 @@
 # Changelog — Pokégotchi
 
+## 2.3 — Tempo e sono
+
+- Corrigida a recuperação de energia durante o sono.
+- Parceiro principal novamente vinculado ao Pokémon correspondente nos quartos após carregar o save.
+- Fome, felicidade e higiene passam com o tempo aberto e offline, em ritmo reduzido durante o sono.
+- Pokémon permanece dormindo quando a energia chega a 100, até ser acordado pelo jogador.
+
 ## 2.2 — PokéMart
 
 - Loja dividida em Berries, Captura, Cuidados, Evolução e Móveis.
