@@ -11,10 +11,17 @@ A interface **Retro Edition** combina sprites pixelados, painéis de batalha cl�
 - Mochila com comida, brinquedos, limpeza, Pokébolas e presentes diários
 - Até seis quartos ativos e armazenamento em Boxes
 - Sono em tempo real: oito horas para recuperar de 0 a 100 de energia
+- Cama melhorada que reduz a recuperação completa para aproximadamente quatro horas
 - Pegar Berries, Memória Pokémon e Treino de Ataque
 - PokéMart com consumíveis, itens evolutivos e móveis para IV/EV
 - Batalhas com golpes reais, aprendizado por nível e efetividade de tipos
-- Capturas com berries, três Pokébolas e encontros offline acumulados
+- Raridades fixas por espécie e aparições influenciadas por clima, horário e temperatura
+- Capturas com berries por tipagem, três Pokébolas, feedback visual e encontros offline acumulados
+- Pokémon shiny com chance de 1 em 200 e sprites shiny preservados no save
+- Incenso de 30 minutos para aumentar a frequência de visitantes
+- Gritos oficiais da PokéAPI em encontros e batalhas, sem música de fundo
+- Cenários diurno/noturno e móveis comprados visíveis no quarto
+- Guia de ajuda acessível pelo botão `?`
 - Save automático e privado em `localStorage`
 - Layout responsivo, pronto para celular e desktop
 

@@ -1,5 +1,21 @@
 # Changelog — Pokégotchi
 
+## 3.0 — Mundo vivo
+
+- Raridade de aparição e dificuldade de captura fixas por espécie.
+- Aparições influenciadas por dia, noite, chuva, tempestade, nebulosidade e temperatura.
+- Pokémon de Gelo favorecidos abaixo de 20 °C e formas noturnas específicas no catálogo.
+- Chance shiny fixa de 1 em 200 por aparição, preservada após a captura.
+- Gritos oficiais fornecidos pela PokéAPI em encontros e batalhas, com controle de som.
+- Incenso de 30 minutos e intervalo normal de aparição reduzido para 10–90 minutos.
+- Captura com bandeja de Pokébolas, indicador verde/amarelo/vermelho, percentual e animação.
+- Berries compatíveis com a tipagem destacadas e bônus refletido imediatamente na chance.
+- Cama melhorada reduzindo a recuperação completa de energia de oito para quatro horas.
+- Cenários próprios de quarto diurno/noturno e quintal em pixel art.
+- Móveis comprados exibidos no quarto com sprites PNG transparentes.
+- Guia interno cobrindo cuidados, captura, aparições, móveis, loja, minigames e batalhas.
+- Fonte de interface atualizada para melhorar a distinção entre números e letras.
+
 ## 2.3 — Tempo e sono
 
 - Corrigida a recuperação de energia durante o sono.
