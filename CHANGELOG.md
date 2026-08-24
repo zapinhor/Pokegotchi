@@ -1,5 +1,11 @@
 # Changelog — Pokégotchi
 
+## 3.7 — Pacote diário
+
+- Presente diário ampliado para 10 Pokébolas, 6 Grandes Bolas e 2 Ultra Bolas.
+- Seis berries sorteadas individualmente, permitindo combinações e repetições.
+- As 50 PokéCoins do presente foram mantidas.
+
 ## 3.6 — Temporizador de sono
 
 - Contagem regressiva de sono atualizada a cada segundo.
