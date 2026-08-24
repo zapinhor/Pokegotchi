@@ -1,5 +1,11 @@
 # Changelog — Pokégotchi
 
+## 3.6 — Temporizador de sono
+
+- Contagem regressiva de sono atualizada a cada segundo.
+- Horário calculado conforme a energia atual e o tipo de cama instalada.
+- Exibição preservada após fechar e reabrir o jogo.
+
 ## 3.5 — Pokédex completa
 
 - As 1.025 espécies principais podem aparecer no quintal, incluindo lendários e míticos.

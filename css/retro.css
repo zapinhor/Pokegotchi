@@ -40,3 +40,4 @@ body,button,input{font-family:'Silkscreen',monospace}.brand small{font-family:'S
 @media(max-width:800px){.furniture-manager{grid-template-columns:1fr}.furniture-manager-grid{grid-template-columns:repeat(2,1fr)}}
 
 .daily-note button:disabled{background:#858b8b!important;color:#d8d8d0!important;border-color:#4f555b!important;box-shadow:3px 3px 0 #34383d!important;cursor:not-allowed;filter:grayscale(1)}.daily-timer{margin:8px 0;color:#f5d75b;font-family:Consolas,'Courier New',monospace;font-size:.9rem;font-variant-numeric:tabular-nums}
+.sleep-note b{font-family:Consolas,'Courier New',monospace;font-size:1rem;font-variant-numeric:tabular-nums;color:#9e2934}
