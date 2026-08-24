@@ -1,5 +1,11 @@
 # Changelog — Pokégotchi
 
+## 3.4 — Presente diário
+
+- Contagem regressiva em tempo real até o próximo presente.
+- Botão desabilitado e acinzentado depois do resgate.
+- Liberação automática à meia-noite no horário local do navegador.
+
 ## 3.3 — Amizade e depósito
 
 - Depósito para guardar móveis inacessíveis e recolocá-los no centro do quarto.
