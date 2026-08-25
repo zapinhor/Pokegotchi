@@ -1,5 +1,11 @@
 # Changelog — Pokégotchi
 
+## 5.4 — Nomes após evolução
+
+- Pokémon sem apelido personalizado agora recebem o nome da espécie evoluída.
+- Apelidos escolhidos pelo jogador continuam preservados durante todas as evoluções.
+- Migração automática corrige Pokémon já evoluídos em saves anteriores, como Squirtle exibido sobre o sprite de Wartortle.
+
 ## 5.3 — Formas regionais
 
 - Formas oficiais de Alola, Galar, Hisui e Paldea adicionadas ao conjunto de aparições do Quintal.
