@@ -1,5 +1,15 @@
 # Changelog — Pokégotchi
 
+## 5.7 — Missões por tipagem
+
+- Adicionadas 180 missões permanentes: cinco metas de captura e cinco de batalha para cada um dos 18 tipos.
+- Metas progressivas de 5, 10, 25, 50 e 100 ações por tipagem.
+- Recompensas crescentes com PokéCoins e Doces de EXP até os tamanhos G e GG.
+- Vitórias registram as tipagens dos Pokémon que participaram da equipe vencedora.
+- Novas abas “Captura por tipo”, “Batalha por tipo” e “Concluídas”.
+- Filtro adicional permite exibir somente uma tipagem escolhida.
+- Progresso de captura anterior é recuperado a partir dos Pokémon atualmente possuídos.
+
 ## 5.6 — Doces de EXP
 
 - XP direto removido das recompensas de missões fixas, diárias e de ginásio.
