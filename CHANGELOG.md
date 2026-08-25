@@ -1,5 +1,12 @@
 # Changelog — Pokégotchi
 
+## 5.5 — Incenso acumulável
+
+- Contador do Incenso adicionado ao Quintal, com atualização em tempo real.
+- Cada Incenso utilizado acrescenta uma hora à duração que já estiver ativa.
+- Até 12 horas podem ser acumuladas sem desperdiçar unidades além do limite.
+- Enquanto ativo, o Incenso continua gerando uma aparição a cada cinco minutos.
+
 ## 5.4 — Nomes após evolução
 
 - Pokémon sem apelido personalizado agora recebem o nome da espécie evoluída.
