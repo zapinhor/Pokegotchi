@@ -25,7 +25,7 @@
           <button id="changelog-button" class="title-link-button">Changelog</button>
         </div>
         <div class="location-notice"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/town-map.png" alt=""> Ative a localização do site para clima e ciclo local mais precisos.</div>
-        <small class="title-version">VERSION 4.0 · PRESS START</small>
+        <small class="title-version">VERSION 5.0 · PRESS START</small>
       </div>
     </section>
     <section id="starter-screen" class="starter-screen hidden">
@@ -37,7 +37,8 @@
       <div class="starter-panel">
         <div class="panel-heading"><div><small>PASSO 01</small><h2>Escolha seu Pokémon</h2></div><span id="starter-count">1 / 11</span></div>
         <div id="starter-grid" class="starter-grid"></div>
-        <label class="name-field">Como vamos chamá-lo?<input id="nickname-input" maxlength="14" placeholder="Nome do parceiro"></label>
+        <label class="name-field">Qual é o seu nome?<input id="trainer-name-input" maxlength="16" placeholder="Nome do treinador"></label>
+        <label class="name-field">Como vamos chamar seu parceiro?<input id="nickname-input" maxlength="14" placeholder="Nome do parceiro"></label>
         <button id="start-button" class="primary-button" disabled>Começar nossa jornada <span>→</span></button>
       </div>
     </section>
@@ -50,7 +51,9 @@
       <div class="layout">
         <nav class="sidebar" aria-label="Principal">
           <button class="nav-item active" data-view="home"><span>⌂</span><em>Casa</em></button>
+          <button class="nav-item" data-view="profile"><span>ID</span><em>Perfil</em></button>
           <button class="nav-item" data-view="yard"><span>♧</span><em>Quintal</em><i id="spawn-dot"></i></button>
+          <button class="nav-item" data-view="events"><span>EX</span><em>Eventos</em><i id="event-dot"></i></button>
           <button class="nav-item" data-view="games"><span>✦</span><em>Jogos</em></button>
           <button class="nav-item" data-view="battle"><span>⚔</span><em>Batalhar</em></button>
           <button class="nav-item" data-view="missions"><span>!</span><em>Missões</em></button>

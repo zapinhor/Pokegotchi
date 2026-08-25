@@ -1,5 +1,18 @@
 # Changelog — Pokégotchi
 
+## 5.0 — Identidade, títulos e expedições
+
+- Nome personalizado do treinador, com migração para saves anteriores e edição pelo Perfil.
+- Títulos permanentes, retroativos e equipáveis por tipagem, coleção, captura, batalha, ginásios, cuidados, arcade e eventos.
+- Hierarquias próprias para os 18 tipos e títulos especiais como Eeveenático e Campeão de Kanto.
+- Evoluções do Eevee corrigidas: cinco pedras, Espeon/Umbreon por amizade e horário, e Sylveon por amizade e golpe Fada.
+- Seletor de evolução mostrando cada requisito cumprido ou pendente.
+- Eventos Tempestade de Gelo (nível 10) e Emergência no Laboratório (nível 20).
+- Expedições repetíveis de duas horas, um Pokémon por vez, com previsão de chance, compatibilidade, risco e passagem offline.
+- Fracasso, ferimentos, sucesso parcial, sucesso e grande sucesso definidos antes do envio e protegidos contra recarregamento.
+- Centro de Resgate para até 20 Pokémon, com captura individual usando berries, Pokébolas, chance shiny e apelidos.
+- Histórico e estatísticas de expedições adicionados.
+
 ## 4.0 — Ginásios e missões
 
 - Missões separadas nas abas Fixas, Ginásios e Diárias, com recompensas progressivas e recuperação de vitórias anteriores.

@@ -25,7 +25,11 @@ A interface **Retro Edition** combina sprites pixelados, painéis de batalha cl�
 - Móveis reposicionáveis por arrastar e posições preservadas no save
 - Equipe de até três Pokémon contra as equipes completas dos oito líderes de Kanto
 - Recompensas escaláveis por batalha e Master Ball garantida após Giovanni
-- Três missões permanentes e cinco missões diárias rotativas
+- Missões fixas progressivas, desafios dos oito ginásios e cinco missões diárias rotativas
+- Perfil com nome personalizado e títulos equipáveis por tipagem, coleção, batalhas, cuidados e conquistas
+- Evoluções completas do Eevee por pedras, amizade, horário e golpe do tipo Fada
+- Eventos Tempestade de Gelo e Emergência no Laboratório
+- Expedições de duas horas com previsão de risco, passagem offline, resultados persistentes e Centro de Resgate
 - Poções oficiais da PokéAPI disponíveis na loja e utilizáveis pela Mochila
 - Save automático e privado em `localStorage`
 - Layout responsivo, pronto para celular e desktop
