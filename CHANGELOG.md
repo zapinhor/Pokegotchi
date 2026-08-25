@@ -1,5 +1,16 @@
 # Changelog — Pokégotchi
 
+## 4.0 — Ginásios e missões
+
+- Todos os oito ginásios de Kanto, de Brock a Giovanni, com equipes completas.
+- Recompensas crescentes por ginásio e Master Ball garantida após Giovanni.
+- Master Ball oficial com captura de 100% para qualquer Pokémon.
+- Dinheiro e experiência variam conforme espécie, experiência-base e nível do adversário.
+- Batalhas reduzem consideravelmente fome, felicidade e higiene da equipe utilizada.
+- Três missões permanentes e cinco missões diárias rotativas.
+- Missões de captura por tipagem, treinadores, minigames e ginásios.
+- Recompensas de missões com PokéCoins, experiência, berries e Pokébolas.
+
 ## 3.8 — Códigos promocionais
 
 - Nova aba para resgatar códigos uma vez por jornada.

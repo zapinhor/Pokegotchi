@@ -16,14 +16,16 @@ A interface **Retro Edition** combina sprites pixelados, painéis de batalha cl�
 - PokéMart com consumíveis, itens evolutivos e móveis para IV/EV
 - Batalhas com golpes reais, aprendizado por nível e efetividade de tipos
 - Todas as 1.025 espécies principais, com raridades baseadas na PokéAPI e aparições influenciadas por clima, horário e temperatura
-- Capturas com berries por tipagem, três Pokébolas, feedback visual e encontros offline acumulados
+- Capturas com berries por tipagem, quatro Pokébolas, feedback visual e encontros offline acumulados
 - Pokémon shiny com chance de 1 em 200 e sprites shiny preservados no save
 - Incenso de 1 hora, gerando uma aparição a cada 5 minutos
 - Gritos oficiais da PokéAPI em encontros e batalhas, sem música de fundo
 - Cenários diurno/noturno e móveis comprados visíveis no quarto
 - Guia de ajuda acessível pelo botão `?`
 - Móveis reposicionáveis por arrastar e posições preservadas no save
-- Equipe de até três Pokémon nas batalhas de ginásio
+- Equipe de até três Pokémon contra as equipes completas dos oito líderes de Kanto
+- Recompensas escaláveis por batalha e Master Ball garantida após Giovanni
+- Três missões permanentes e cinco missões diárias rotativas
 - Poções oficiais da PokéAPI disponíveis na loja e utilizáveis pela Mochila
 - Save automático e privado em `localStorage`
 - Layout responsivo, pronto para celular e desktop
