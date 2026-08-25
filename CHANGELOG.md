@@ -2,7 +2,7 @@
 
 ## 5.0 — Identidade, títulos e expedições
 
-- Sprites oficiais dos 18 tipos adicionados aos visitantes do Quintal e à aba Status Pokémon.
+- Sprites oficiais dos 18 tipos adicionados aos visitantes do Quintal, cartões de Quartos/Boxes e todas as telas de Status Pokémon.
 - Nome personalizado do treinador, com migração para saves anteriores e edição pelo Perfil.
 - Títulos permanentes, retroativos e equipáveis por tipagem, coleção, captura, batalha, ginásios, cuidados, arcade e eventos.
 - Hierarquias próprias para os 18 tipos e títulos especiais como Eeveenático e Campeão de Kanto.
