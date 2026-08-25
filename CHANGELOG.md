@@ -1,5 +1,14 @@
 # Changelog — Pokégotchi
 
+## 5.1 — Breeding, gênero e resgates
+
+- Expedições agora podem resgatar até 20 Pokémon, com quantidade maior em chances altas e espécies repetidas.
+- Gênero adicionado a todos os Pokémon, respeitando a proporção oficial disponível na PokéAPI.
+- Centro de Breeding com pares macho/fêmea e Ditto como coringa.
+- Produção de ovo em 24 horas, alimentação horária por berry compatível reduzindo duas horas e incubação de seis horas.
+- Novos filhotes nascem no nível 1 e podem herdar IV dos pais.
+- Slider de volume para controlar a intensidade dos gritos Pokémon.
+
 ## 5.0 — Identidade, títulos e expedições
 
 - Sprites oficiais dos 18 tipos adicionados aos visitantes do Quintal, cartões de Quartos/Boxes e todas as telas de Status Pokémon.

@@ -19,7 +19,7 @@ A interface **Retro Edition** combina sprites pixelados, painéis de batalha cl�
 - Capturas com berries por tipagem, quatro Pokébolas, feedback visual e encontros offline acumulados
 - Pokémon shiny com chance de 1 em 200 e sprites shiny preservados no save
 - Incenso de 1 hora, gerando uma aparição a cada 5 minutos
-- Gritos oficiais da PokéAPI em encontros e batalhas, sem música de fundo
+- Gritos oficiais da PokéAPI em encontros e batalhas, com volume ajustável e sem música de fundo
 - Cenários diurno/noturno e móveis comprados visíveis no quarto
 - Guia de ajuda acessível pelo botão `?`
 - Móveis reposicionáveis por arrastar e posições preservadas no save
@@ -29,7 +29,8 @@ A interface **Retro Edition** combina sprites pixelados, painéis de batalha cl�
 - Perfil com nome personalizado e títulos equipáveis por tipagem, coleção, batalhas, cuidados e conquistas
 - Evoluções completas do Eevee por pedras, amizade, horário e golpe do tipo Fada
 - Eventos Tempestade de Gelo e Emergência no Laboratório
-- Expedições de duas horas com previsão de risco, passagem offline, resultados persistentes e Centro de Resgate
+- Expedições de duas horas com previsão de risco, passagem offline e até 20 Pokémon repetíveis por resgate
+- Gêneros oficiais e Centro de Breeding com Ditto, produção de ovos, berries redutoras e incubação offline
 - Poções oficiais da PokéAPI disponíveis na loja e utilizáveis pela Mochila
 - Save automático e privado em `localStorage`
 - Layout responsivo, pronto para celular e desktop
