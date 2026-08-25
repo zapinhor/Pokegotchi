@@ -2,6 +2,8 @@
 
 ## 4.0 — Ginásios e missões
 
+- Missões separadas nas abas Fixas, Ginásios e Diárias, com recompensas progressivas e recuperação de vitórias anteriores.
+- Novas missões diárias de captura, tipagem, treinadores, alimentação, brincadeiras e minigames; líderes não aparecem mais na rotação diária.
 - Estojo com as oito insígnias de Kanto na casa, reconhecendo automaticamente as vitórias já registradas no save.
 - Todos os oito ginásios de Kanto, de Brock a Giovanni, com equipes completas.
 - Recompensas crescentes por ginásio e Master Ball garantida após Giovanni.

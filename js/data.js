@@ -34,9 +34,15 @@ export const LEADERS=[
  {name:'Giovanni',level:50,badge:'Terra',team:[[111,45],[51,42],[31,44],[34,45],[112,50]],reward:{coins:2500,xp:1200,items:{'master-ball':1,'full-restore':3}}}
 ];
 export const FIXED_MISSIONS=[
- {id:'fixed-capture-1',title:'Primeiro passo',desc:'Capture 1 Pokémon.',kind:'captureAny',target:1,reward:{coins:300,items:{'poke-ball':10}}},
- {id:'fixed-trainers-3',title:'Treinador iniciante',desc:'Vença 3 treinadores visitantes.',kind:'npcWin',target:3,reward:{coins:500,xp:180,items:{'great-ball':5}}},
- {id:'fixed-brock',title:'Desafio de Pewter',desc:'Derrote Brock no Ginásio de Pewter.',kind:'gym',gym:0,target:1,reward:{coins:400,items:{'super-potion':3,'great-ball':3}}}
+ {id:'fixed-capture-5',title:'Colecionador iniciante',desc:'Capture 5 Pokémon.',kind:'captureAny',target:5,reward:{coins:300,xp:120,items:{'poke-ball':10}}},
+ {id:'fixed-capture-10',title:'Colecionador dedicado',desc:'Capture 10 Pokémon.',kind:'captureAny',target:10,reward:{coins:600,xp:250,items:{'great-ball':10}}},
+ {id:'fixed-capture-50',title:'Pesquisador Pokémon',desc:'Capture 50 Pokémon.',kind:'captureAny',target:50,reward:{coins:1800,xp:800,items:{'ultra-ball':12}}},
+ {id:'fixed-capture-100',title:'Mestre colecionador',desc:'Capture 100 Pokémon.',kind:'captureAny',target:100,reward:{coins:4000,xp:1800,items:{'ultra-ball':25}}},
+ {id:'fixed-trainers-3',title:'Treinador iniciante',desc:'Vença 3 batalhas.',kind:'battleWin',target:3,reward:{coins:400,xp:180,items:{'potion':5}}},
+ {id:'fixed-trainers-10',title:'Treinador experiente',desc:'Vença 10 batalhas.',kind:'battleWin',target:10,reward:{coins:800,xp:350,items:{'great-ball':8}}},
+ {id:'fixed-trainers-25',title:'Especialista em batalhas',desc:'Vença 25 batalhas.',kind:'battleWin',target:25,reward:{coins:1600,xp:750,items:{'super-potion':8}}},
+ {id:'fixed-trainers-50',title:'Veterano de batalha',desc:'Vença 50 batalhas.',kind:'battleWin',target:50,reward:{coins:3000,xp:1400,items:{'ultra-ball':15}}},
+ {id:'fixed-trainers-100',title:'Lenda dos treinadores',desc:'Vença 100 batalhas.',kind:'battleWin',target:100,reward:{coins:6000,xp:3000,items:{'max-potion':8,'ultra-ball':25}}}
 ];
 export const DAILY_MISSION_TYPES=['normal','fire','water','grass','electric','ice','fighting','poison','ground','flying','psychic','bug','rock','ghost','dragon','dark','steel','fairy'];
 export const GAME_COSTS={berry:20,memory:25,timing:30};
