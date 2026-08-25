@@ -8,6 +8,7 @@ A interface **Retro Edition** combina sprites pixelados, painéis de batalha cl�
 
 - 11 Pokémon iniciais, sprites públicos da PokéAPI e Pokédex local
 - Necessidades, passagem de tempo offline, níveis, XP e evoluções
+- Formas regionais de Alola, Galar, Hisui e Paldea em aparições e rotas evolutivas
 - Mochila com comida, brinquedos, limpeza, Pokébolas e presentes diários
 - Até seis quartos ativos e armazenamento em Boxes
 - Sono em tempo real: oito horas para recuperar de 0 a 100 de energia

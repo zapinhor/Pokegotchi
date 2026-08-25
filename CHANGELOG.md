@@ -1,5 +1,14 @@
 # Changelog — Pokégotchi
 
+## 5.3 — Formas regionais
+
+- Formas oficiais de Alola, Galar, Hisui e Paldea adicionadas ao conjunto de aparições do Quintal.
+- Nomes, tipagens, raridades e sprites próprios preservados após aparição, captura e evolução.
+- Rotas regionais especiais adicionadas, incluindo Marowak de Alola, Raichu de Alola, Weezing de Galar e iniciais de Hisui.
+- Famílias regionais agora evoluem para suas formas corretas e evoluções exclusivas, como Perrserker, Sirfetch'd, Cursola, Obstagoon, Sneasler, Overqwil e Clodsire.
+- Escolha de evolução por pedra corrigida quando um mesmo Pokémon possui mais de um destino possível.
+- Status atualizado para exibir a tipagem após a evolução regional.
+
 ## 5.2 — Expedições paralelas
 
 - Passe de Expedição consumível por 2.800 PokéCoins, reduzindo uma missão de duas para uma hora.
