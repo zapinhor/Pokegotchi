@@ -51,3 +51,5 @@ export const itemSprite=id=>`https://raw.githubusercontent.com/PokeAPI/sprites/m
 export const coinSprite='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/coin-case.png';
 export const shinySprite=id=>`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/${id}.png`;
 export const furnitureSprite=id=>`assets/furniture/${id}.png`;
+const TYPE_SPRITE_IDS={normal:1,fighting:2,flying:3,poison:4,ground:5,rock:6,bug:7,ghost:8,steel:9,fire:10,water:11,grass:12,electric:13,psychic:14,ice:15,dragon:16,dark:17,fairy:18};
+export const typeSprite=type=>`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/types/generation-viii/sword-shield/${TYPE_SPRITE_IDS[type]}.png`;
