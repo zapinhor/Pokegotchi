@@ -1,5 +1,14 @@
 # Changelog — Pokégotchi
 
+## 5.6 — Doces de EXP
+
+- XP direto removido das recompensas de missões fixas, diárias e de ginásio.
+- Adicionados Doces de EXP PP, P, M, G e GG com valores de 100, 800, 3.000, 10.000 e 30.000 XP.
+- Doces recebidos são guardados na Mochila e podem ser entregues a qualquer Pokémon dos Quartos ou Boxes.
+- Nova aba de Doces de EXP adicionada à tela de Quartos para uso rápido.
+- Recompensas das missões agora exibem sprites dos itens.
+- Missões antigas ainda não resgatadas são migradas automaticamente para doces equivalentes.
+
 ## 5.5 — Incenso acumulável
 
 - Contador do Incenso adicionado ao Quintal, com atualização em tempo real.
