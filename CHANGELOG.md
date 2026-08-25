@@ -2,6 +2,7 @@
 
 ## 4.0 — Ginásios e missões
 
+- Estojo com as oito insígnias de Kanto na casa, reconhecendo automaticamente as vitórias já registradas no save.
 - Todos os oito ginásios de Kanto, de Brock a Giovanni, com equipes completas.
 - Recompensas crescentes por ginásio e Master Ball garantida após Giovanni.
 - Master Ball oficial com captura de 100% para qualquer Pokémon.
