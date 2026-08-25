@@ -1,5 +1,11 @@
 # Changelog — Pokégotchi
 
+## 3.8 — Códigos promocionais
+
+- Nova aba para resgatar códigos uma vez por jornada.
+- `RELEASE1500`: concede 1.500 PokéCoins.
+- `WELCOME`: concede um Dratini shiny, enviado para um quarto livre ou para a Box.
+
 ## 3.7 — Pacote diário
 
 - Presente diário ampliado para 10 Pokébolas, 6 Grandes Bolas e 2 Ultra Bolas.
