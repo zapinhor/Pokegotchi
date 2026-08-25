@@ -1,5 +1,15 @@
 # Changelog — Pokégotchi
 
+## 5.2 — Expedições paralelas
+
+- Passe de Expedição consumível por 2.800 PokéCoins, reduzindo uma missão de duas para uma hora.
+- Duas expedições simultâneas, uma por evento e com Pokémon diferentes.
+- Recompensas escaláveis de XP, PokéCoins e itens conforme dificuldade, resultado e chance calculada.
+- Bônus de EXP dos móveis aplicado ao Pokémon que participou da expedição.
+- Prévia separada de itens/progresso e Pokémon resgatáveis, com silhuetas para espécies ainda não registradas.
+- Seleção visual de Breeding com cartões, pesquisa e filtros por gênero e tipagem.
+- Código `EXPEDIÇÕES` oferecendo dois Passes de Expedição.
+
 ## 5.1 — Breeding, gênero e resgates
 
 - Expedições agora podem resgatar até 20 Pokémon, com quantidade maior em chances altas e espécies repetidas.
