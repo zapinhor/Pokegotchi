@@ -18,7 +18,8 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      # Mantém o botão "Visit site" em HTTPS mesmo após remover um domínio personalizado.
+      url: https://zapinhor.github.io/Pokegotchi/
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
