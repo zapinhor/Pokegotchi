@@ -48,12 +48,6 @@ python -m http.server 8080
 
 Então acesse `http://localhost:8080`.
 
-## Publicar no GitHub Pages
-
-1. Crie um repositório e envie estes arquivos para a branch `main`.
-2. No GitHub, abra **Settings → Pages**.
-3. Em **Build and deployment**, selecione **GitHub Actions**.
-4. O fluxo incluído no projeto publicará cada atualização da branch `main`.
 
 Não há chaves secretas nem backend. Geolocalização é solicitada apenas para consultar o clima na API gratuita Open-Meteo; se negada, o ciclo dia/noite usa o relógio do aparelho.
 
