@@ -9,10 +9,15 @@
   <link rel="icon" href="favicon.png?v=6.0" type="image/png">
   <link rel="preconnect" href="https://raw.githubusercontent.com">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/retro.css?v=6.3">
+  <link rel="stylesheet" href="css/retro.css?v=6.4">
 </head>
 <body>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <aside id="save-migration-warning" class="save-migration-warning" role="alert">
+    <div><strong>⚠ Mudança de domínio em breve</strong><span>Exporte seu save agora para continuar a jornada no novo endereço.</span></div>
+    <div class="save-migration-actions"><button id="export-save">Exportar save</button><button id="import-save">Importar save</button></div>
+    <input id="import-save-file" type="file" accept=".json,application/json" hidden>
+  </aside>
   <div id="app">
     <section id="title-screen" class="title-screen">
       <div class="title-console">
@@ -26,7 +31,7 @@
           <button id="changelog-button" class="title-link-button">Changelog</button>
         </div>
         <div class="location-notice"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/town-map.png" alt=""> Ative a localização do site para clima e ciclo local mais precisos.</div>
-        <small class="title-version">VERSION 6.0 · PRESS START</small>
+        <small class="title-version">VERSION 6.4 · PRESS START</small>
       </div>
     </section>
     <section id="starter-screen" class="starter-screen hidden">
@@ -81,6 +86,6 @@
   </div>
 
   <dialog id="modal" class="modal"><button id="modal-close" class="modal-close" aria-label="Fechar">×</button><div id="modal-content"></div></dialog>
-  <script type="module" src="js/app.js?v=6.3"></script>
+  <script type="module" src="js/app.js?v=6.4"></script>
 </body>
 </html>
