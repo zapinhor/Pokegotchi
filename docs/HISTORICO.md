@@ -161,9 +161,9 @@ para ser produzido; a cada hora, uma berry compatível pode reduzir duas horas.
 Depois, a incubação leva seis horas. Filhotes nascem no nível 1 e podem herdar
 IV dos pais. A seleção possui cartões, pesquisa e filtros por gênero e tipo.
 
-A PokéAPI também fornece `egg_groups` em `pokemon-species`. O jogo já consulta
-essa informação, mas a compatibilidade oficial por Egg Group ainda não foi
-aplicada ao Breeding (ver pendências).
+A PokéAPI também fornece `egg_groups` em `pokemon-species`. Desde a versão 5.8,
+o Breeding exige um grupo compartilhado, trata Ditto como coringa e bloqueia
+o grupo `no-eggs`, pares sem gênero incompatíveis e dois Ditto.
 
 ## 12. Áudio, interface e acessibilidade
 
@@ -188,15 +188,17 @@ Cada código pode ser resgatado uma vez por jornada.
 - Publicação automática pela branch `main` usando GitHub Actions/Pages.
 - O projeto também foi adicionado ao portfólio e recebeu textos estruturados
   para publicação e para a seção Projetos do LinkedIn.
+Na versão 5.9, os sprites 8-bit aprovados foram aplicados às 15 abas. A
+navegação passou a usar quatro grupos compactos e o Rotom Dex identifica a
+Pokédex; o ícone de Jogos também virou o favicon.
+
+Na versão 6.0, a aba de Batalhas recebeu uma Dungeon Infinita procedural. O
+desempenho nela concede Passes de Reide usados em rotas de cinco guardiões e
+um boss capturável com Premier Balls. Bosses incluem categorias lendária,
+mítica, pseudo-lendária e extremamente rara, sem formas Gigantamax.
 
 ## 15. Ideias discutidas, mas ainda não concluídas
 
-- Aplicar integralmente as regras oficiais de Egg Group no Breeding, incluindo
-  `no-eggs`, compatibilidade compartilhada, sem gênero e bloqueio de dois Ditto.
-- Mostrar Egg Groups e filtro “Somente compatíveis” na seleção de parceiros.
-- Criar um novo conjunto de sprites 8-bit para todas as abas laterais; usar o
-  Rotom Dex como referência da Pokédex. O pedido determinou não alterar o site
-  antes de aprovar esses visuais, e a geração não foi concluída.
 - Login e sincronização em nuvem foram discutidos apenas como possibilidade;
   exigiriam backend/serviço externo e não fazem parte do site estático atual.
 - Exportar e importar o save entre navegadores foi discutido como solução sem
@@ -213,4 +215,3 @@ Em caso de divergência entre este histórico e o projeto:
 2. `CHANGELOG.md` registra o que foi publicado por versão.
 3. `README.md` resume as funcionalidades atuais.
 4. Este arquivo preserva o raciocínio e as decisões da conversa.
-

@@ -6,9 +6,10 @@
   <meta name="theme-color" content="#ef5350">
   <meta name="description" content="Um bichinho virtual Pokémon com cuidados, batalhas, capturas e minigames.">
   <title>Pokégotchi — Seu Pokémon, sua aventura</title>
+  <link rel="icon" href="favicon.png?v=6.0" type="image/png">
   <link rel="preconnect" href="https://raw.githubusercontent.com">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/retro.css?v=5.7">
+  <link rel="stylesheet" href="css/retro.css?v=6.0">
 </head>
 <body>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
@@ -25,7 +26,7 @@
           <button id="changelog-button" class="title-link-button">Changelog</button>
         </div>
         <div class="location-notice"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/town-map.png" alt=""> Ative a localização do site para clima e ciclo local mais precisos.</div>
-        <small class="title-version">VERSION 5.0 · PRESS START</small>
+        <small class="title-version">VERSION 6.0 · PRESS START</small>
       </div>
     </section>
     <section id="starter-screen" class="starter-screen hidden">
@@ -50,21 +51,29 @@
       </header>
       <div class="layout">
         <nav class="sidebar" aria-label="Principal">
-          <button class="nav-item active" data-view="home"><span>⌂</span><em>Casa</em></button>
-          <button class="nav-item" data-view="profile"><span>ID</span><em>Perfil</em></button>
-          <button class="nav-item" data-view="yard"><span>♧</span><em>Quintal</em><i id="spawn-dot"></i></button>
-          <button class="nav-item" data-view="events"><span>EX</span><em>Eventos</em><i id="event-dot"></i></button>
-          <button class="nav-item" data-view="breeding"><span>EG</span><em>Breeding</em></button>
-          <button class="nav-item" data-view="games"><span>✦</span><em>Jogos</em></button>
-          <button class="nav-item" data-view="battle"><span>⚔</span><em>Batalhar</em></button>
-          <button class="nav-item" data-view="missions"><span>!</span><em>Missões</em></button>
-          <button class="nav-item" data-view="shop"><span>▣</span><em>Loja</em></button>
-          <button class="nav-item" data-view="inventory"><span>▤</span><em>Mochila</em></button>
-          <button class="nav-item" data-view="codes"><span>⌨</span><em>Códigos</em></button>
-          <button class="nav-item" data-view="rooms"><span>▥</span><em>Quartos</em></button>
-          <button class="nav-item" data-view="furniture"><span>▦</span><em>Móveis</em></button>
-          <button class="nav-item" data-view="status"><span>IV</span><em>Status</em></button>
-          <button class="nav-item" data-view="dex"><span>◎</span><em>Pokédex</em></button>
+          <section class="nav-group" aria-label="Cuidados"><b>Cuidados</b><div>
+            <button class="nav-item active" data-view="home"><span class="nav-sprite"></span><em>Casa</em></button>
+            <button class="nav-item" data-view="rooms"><span class="nav-sprite"></span><em>Quartos</em></button>
+            <button class="nav-item" data-view="furniture"><span class="nav-sprite"></span><em>Móveis</em></button>
+            <button class="nav-item" data-view="inventory"><span class="nav-sprite"></span><em>Mochila</em></button>
+            <button class="nav-item" data-view="yard"><span class="nav-sprite"></span><em>Quintal</em><i id="spawn-dot"></i></button>
+            <button class="nav-item" data-view="breeding"><span class="nav-sprite"></span><em>Breeding</em></button>
+          </div></section>
+          <section class="nav-group" aria-label="Atividades"><b>Atividades</b><div>
+            <button class="nav-item" data-view="battle"><span class="nav-sprite"></span><em>Batalhar</em></button>
+            <button class="nav-item" data-view="games"><span class="nav-sprite"></span><em>Jogos</em></button>
+            <button class="nav-item" data-view="events"><span class="nav-sprite"></span><em>Eventos</em><i id="event-dot"></i></button>
+            <button class="nav-item" data-view="missions"><span class="nav-sprite"></span><em>Missões</em></button>
+          </div></section>
+          <section class="nav-group" aria-label="Serviços"><b>Serviços</b><div>
+            <button class="nav-item" data-view="shop"><span class="nav-sprite"></span><em>PokéMart</em></button>
+            <button class="nav-item" data-view="codes"><span class="nav-sprite"></span><em>Códigos</em></button>
+          </div></section>
+          <section class="nav-group" aria-label="Treinador"><b>Treinador</b><div>
+            <button class="nav-item" data-view="status"><span class="nav-sprite"></span><em>IV Status</em></button>
+            <button class="nav-item" data-view="dex"><span class="nav-sprite"></span><em>Pokédex</em></button>
+            <button class="nav-item" data-view="profile"><span class="nav-sprite"></span><em>Perfil</em></button>
+          </div></section>
         </nav>
         <section id="view-container" class="view-container"></section>
       </div>
@@ -72,6 +81,6 @@
   </div>
 
   <dialog id="modal" class="modal"><button id="modal-close" class="modal-close" aria-label="Fechar">×</button><div id="modal-content"></div></dialog>
-  <script type="module" src="js/app.js?v=5.7"></script>
+  <script type="module" src="js/app.js?v=6.0"></script>
 </body>
 </html>

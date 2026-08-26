@@ -1,5 +1,29 @@
 # Changelog — Pokégotchi
 
+## 6.0 — Dungeon Infinita e Rota de Reide
+
+- Dungeon Infinita adicionada à aba de Batalhas, com equipe de até três Pokémon e dificuldade procedural crescente até todos desmaiarem.
+- Sobreviver a pelo menos cinco salas concede um Passe de Reide; marcas maiores concedem passes adicionais.
+- Rota de Reide consome um passe e exige cinco batalhas crescentes antes do boss final.
+- Bosses podem ser lendários, míticos, pseudo-lendários ou Pokémon extremamente raros, sem Gigantamax.
+- Desempenho por HP restante e quantidade de turnos concede de 8 a 13 Premier Balls exclusivas da tentativa.
+- Captura do boss usa o sprite oficial da Premier Ball fornecido pela PokéAPI e mantém shiny em 1/200.
+- Progresso do desafio e da captura é salvo para resistir a recarregamentos.
+
+## 5.9 — Navegação reorganizada
+
+- As 15 abas agora usam sprites 8-bit próprios e ficam divididas em Cuidados, Atividades, Serviços e Treinador.
+- A barra lateral usa duas colunas no computador e duas linhas compactas no celular, reduzindo a rolagem.
+- “Loja” foi renomeada para “PokéMart”.
+- O ícone de Jogos também passou a ser o favicon do site.
+
+## 5.8 — Egg Groups no Breeding
+
+- Breeding agora exige um Egg Group compartilhado entre parceiros comuns.
+- Pokémon do grupo `no-eggs`, pares sem gênero sem Ditto e dois Ditto são bloqueados com uma explicação clara.
+- Ditto continua funcionando como coringa para espécies aptas a produzir ovos.
+- Cartões exibem os Egg Groups e a seleção ganhou o filtro “Somente compatíveis”.
+
 ## 5.7 — Missões por tipagem
 
 - Adicionadas 180 missões permanentes: cinco metas de captura e cinco de batalha para cada um dos 18 tipos.

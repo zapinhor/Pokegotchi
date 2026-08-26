@@ -27,7 +27,7 @@ carregar toda a conversa antiga.
 - `js/wild-catalog.js`: catálogo de aparições.
 - `js/regional-forms.js`: formas e evoluções regionais.
 - `assets/backgrounds/` e `assets/furniture/`: cenários e móveis.
-- `CHANGELOG.md`: versões publicadas; versão atual registrada: **5.7**.
+- `CHANGELOG.md`: versões publicadas; versão atual registrada: **6.0**.
 
 ## Estado funcional atual
 
@@ -37,6 +37,10 @@ títulos, clima, todas as 1.025 espécies principais, formas regionais, shiny
 1/200, captura com berries e quatro Pokébolas, Incenso acumulável, eventos,
 duas expedições simultâneas, resgates, gêneros, Breeding, ovos, doces de EXP,
 evolução manual, móveis reposicionáveis, presente diário e códigos.
+
+A versão 6.0 adiciona Dungeon Infinita com equipe de até três Pokémon para
+obter Passes de Reide, além de rotas com cinco guardiões, boss raro e captura
+por Premier Balls concedidas conforme o desempenho.
 
 Para detalhes de cada versão, consultar `CHANGELOG.md`. Para decisões e ideias
 da conversa, consultar `docs/HISTORICO.md`.
@@ -65,14 +69,9 @@ da conversa, consultar `docs/HISTORICO.md`.
 
 ## Pendências aprovadas ou discutidas
 
-1. **Egg Groups:** `js/api.js` já lê `eggGroups`, mas o Breeding ainda precisa
-   validar grupo compartilhado, `no-eggs`, sem gênero, Ditto e dois Ditto.
-2. **Navegação:** criar/aprovar sprites 8-bit para as abas laterais. Para a
-   Pokédex, usar Rotom Dex como referência. O usuário pediu explicitamente para
-   não alterar o site antes de aprovar os sprites.
-3. **Save portátil:** exportar/importar save ainda é ideia, não implementação.
-4. **Login/nuvem:** apenas discutido; exige serviço externo e decisão técnica.
-5. **Analytics:** não implementado.
+1. **Save portátil:** exportar/importar save ainda é ideia, não implementação.
+2. **Login/nuvem:** apenas discutido; exige serviço externo e decisão técnica.
+3. **Analytics:** não implementado.
 
 ## Forma de trabalhar
 
@@ -91,4 +90,3 @@ da conversa, consultar `docs/HISTORICO.md`.
 > `docs/CONTEXTO-CODEX.md`, depois confira `CHANGELOG.md`, `README.md` e o estado
 > atual do Git. Preserve o save existente e as migrações. Minha alteração agora
 > é: [descreva aqui].
-

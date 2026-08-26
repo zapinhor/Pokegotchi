@@ -25,6 +25,7 @@ A interface **Retro Edition** combina sprites pixelados, painéis de batalha cl�
 - Guia de ajuda acessível pelo botão `?`
 - Móveis reposicionáveis por arrastar e posições preservadas no save
 - Equipe de até três Pokémon contra as equipes completas dos oito líderes de Kanto
+- Dungeon Infinita para obter Passes de Reide e rotas com cinco guardiões, boss raro e Premier Balls por desempenho
 - Recompensas escaláveis por batalha e Master Ball garantida após Giovanni
 - Missões fixas progressivas, desafios dos oito ginásios e cinco missões diárias rotativas
 - Perfil com nome personalizado e títulos equipáveis por tipagem, coleção, batalhas, cuidados e conquistas
@@ -32,7 +33,7 @@ A interface **Retro Edition** combina sprites pixelados, painéis de batalha cl�
 - Eventos Tempestade de Gelo e Emergência no Laboratório
 - Até duas expedições simultâneas, recompensas escaláveis e Passe consumível para reduzir a duração pela metade
 - Prévia de itens e espécies resgatáveis, com silhuetas para Pokémon ainda não registrados
-- Gêneros oficiais e Centro de Breeding com Ditto, produção de ovos, berries redutoras e incubação offline
+- Gêneros e Egg Groups oficiais no Centro de Breeding, com Ditto, produção de ovos, berries redutoras e incubação offline
 - Poções oficiais da PokéAPI disponíveis na loja e utilizáveis pela Mochila
 - Save automático e privado em `localStorage`
 - Layout responsivo, pronto para celular e desktop
