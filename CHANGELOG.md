@@ -1,5 +1,46 @@
 # Changelog — Pokégotchi
 
+## 7.6 — Recompensas progressivas
+
+- Recompensas das Áreas de Batalha agora crescem de acordo com o nível do adversário.
+- PokéCoins usam uma curva mais forte nas faixas altas, tornando as áreas de nível 100 realmente valiosas.
+- Sequências de vitórias concedem bônus gradual de até 50% no XP e nas PokéCoins.
+- Cada área mostra uma estimativa de recompensa antes da entrada.
+- Luminária Lucky Egg ajustada para 15.000 PokéCoins, mantendo o multiplicador de XP ×2,5.
+
+## 7.5 — Experiência e áreas infinitas
+
+- Exp. Share de 10.000 PokéCoins pode ser equipado em um quarto e concede 80% do XP real obtido pelo parceiro.
+- Exp. All de 80.000 PokéCoins é permanente e concede 150% do XP-base aos demais quartos ocupados.
+- Luminária Lucky Egg multiplica por 2,5 o XP do Pokémon em uso em todas as atividades.
+- Áreas de Batalha agora são sequências infinitas com somente o parceiro atual, encerradas ao sair ou desmaiar.
+- Dungeon Infinita também passou a conceder XP por adversário derrotado.
+
+## 7.4 — Áreas de Batalha
+
+- Seis territórios temáticos cobrem os 18 tipos de Pokémon.
+- Faixas de dificuldade selecionáveis vão do nível 5 ao 100.
+- Cada território recomenda tipos vantajosos contra os adversários locais.
+
+## 7.3 — Respostas dinâmicas
+
+- Conversas ganharam mais respostas, com conjuntos que mudam periodicamente ou a pedido do jogador.
+
+## 7.2 — Conversas expandidas
+
+- As 25 naturezas possuem falas, perguntas e reações próprias.
+- Saúde, fome, energia, higiene, felicidade e amizade geram novas variações de conversa.
+
+## 7.1 — Ovos corrigidos
+
+- O breeding consulta a cadeia evolutiva completa e faz o ovo chocar na primeira forma da família.
+
+## 7.0 — Atributos e personalidade
+
+- IVs, EVs, atributos calculados e efeitos das naturezas passaram a valer nas batalhas.
+- Amizade máxima ajustada para 255.
+- Conversas passaram a reagir à natureza, amizade e condições do Pokémon.
+
 ## 6.0 — Dungeon Infinita e Rota de Reide
 
 - Dungeon Infinita adicionada à aba de Batalhas, com equipe de até três Pokémon e dificuldade procedural crescente até todos desmaiarem.
