@@ -41,6 +41,11 @@ export const REGIONAL_FORMS=[
 
 export const REGIONAL_NAMES=Object.fromEntries(REGIONAL_FORMS.map(x=>[x.id,x.name]));
 export const regionalName=id=>REGIONAL_NAMES[Number(id)]||null;
+export function regionalBreedingBase(parentId,babyBaseId){
+  const parent=REGIONAL_FORMS.find(form=>form.id===Number(parentId));
+  if(!parent)return Number(babyBaseId);
+  return REGIONAL_FORMS.find(form=>form.base===Number(babyBaseId)&&form.region===parent.region)?.id||Number(babyBaseId);
+}
 
 const level=(id,name,minLevel,extra={})=>({id,name,trigger:'level-up',minLevel,...extra});
 const item=(id,name,item)=>({id,name,trigger:'use-item',item});

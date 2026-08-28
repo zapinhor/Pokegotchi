@@ -1,5 +1,19 @@
 # Changelog — Pokégotchi
 
+## 7.8 — Código BREEDSORRY
+
+- O código `BREEDSORRY` pode ser resgatado uma vez por jornada.
+- O benefício fica guardado até o jogador iniciar o próximo breeding válido.
+- Esse breeding leva somente 10 segundos para produzir o ovo e mais 10 segundos para chocá-lo.
+- Após o uso, os tempos normais voltam automaticamente.
+
+## 7.7 — Breeding regional
+
+- O breeding preserva a primeira forma regional da linhagem do progenitor não-Ditto.
+- Zorua de Hisui com Ditto agora produz corretamente outro Zorua de Hisui.
+- A correção também é aplicada a ovos que já estavam em produção ou incubação antes desta versão.
+- Outras famílias regionais, como Rattata, Vulpix, Meowth, Ponyta e Zigzagoon, usam a mesma regra.
+
 ## 7.6 — Recompensas progressivas
 
 - Recompensas das Áreas de Batalha agora crescem de acordo com o nível do adversário.
