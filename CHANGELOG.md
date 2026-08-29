@@ -1,5 +1,12 @@
 # Changelog — Pokégotchi
 
+## 8.0 — Gerenciamento de save
+
+- Removido o aviso permanente da troca de domínio.
+- Importação e exportação continuam disponíveis dentro de Configurações.
+- A tela inicial ganhou a janela “Gerenciar save”, permitindo importar uma jornada antes de entrar no jogo.
+- Os textos de backup agora servem como orientação permanente, sem referências à migração de domínio.
+
 ## 7.9 — Novo domínio
 
 - Corrigida a inicialização quando o domínio ou navegador ainda não possui uma jornada salva.

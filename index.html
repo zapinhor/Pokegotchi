@@ -13,11 +13,7 @@
 </head>
 <body>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <aside id="save-migration-warning" class="save-migration-warning" role="alert">
-    <div><strong>⚠ Mudança de domínio: sexta-feira, dia 28, às 18h</strong><span>A troca acontecerá às 18h, no horário de Brasília. Exporte seu save agora para continuar a jornada no novo endereço.</span></div>
-    <div class="save-migration-actions"><button id="export-save">Exportar save</button><button id="import-save">Importar save</button></div>
-    <input id="import-save-file" type="file" accept=".json,application/json" hidden>
-  </aside>
+  <input id="import-save-file" type="file" accept=".json,application/json" hidden>
   <div id="app">
     <section id="title-screen" class="title-screen">
       <div class="title-console">
@@ -28,10 +24,11 @@
         <div class="title-actions">
           <button id="continue-button" class="primary-button">Continuar jornada <span>▶</span></button>
           <button id="new-game-button" class="secondary-button">Começar nova jornada</button>
+          <button id="backup-button" class="title-link-button">Gerenciar save</button>
           <button id="changelog-button" class="title-link-button">Changelog</button>
         </div>
         <div class="location-notice"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/town-map.png" alt=""> Ative a localização do site para clima e ciclo local mais precisos.</div>
-        <small class="title-version">VERSION 7.9 · PRESS START</small>
+        <small class="title-version">VERSION 8.0 · PRESS START</small>
       </div>
     </section>
     <section id="starter-screen" class="starter-screen hidden">
@@ -86,6 +83,6 @@
   </div>
 
   <dialog id="modal" class="modal"><button id="modal-close" class="modal-close" aria-label="Fechar">×</button><div id="modal-content"></div></dialog>
-  <script type="module" src="js/app.js?v=7.9"></script>
+  <script type="module" src="js/app.js?v=8.0"></script>
 </body>
 </html>
