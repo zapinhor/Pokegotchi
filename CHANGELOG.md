@@ -1,5 +1,11 @@
 # Changelog — Pokégotchi
 
+## 7.9 — Novo domínio
+
+- Corrigida a inicialização quando o domínio ou navegador ainda não possui uma jornada salva.
+- Os botões de importar save, começar uma nova jornada e abrir o changelog voltam a funcionar normalmente.
+- Nenhum save é criado ou sobrescrito durante essa correção.
+
 ## 7.8 — Código BREEDSORRY
 
 - O código `BREEDSORRY` pode ser resgatado uma vez por jornada.
