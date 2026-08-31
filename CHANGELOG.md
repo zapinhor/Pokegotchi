@@ -1,5 +1,27 @@
 # Changelog — Pokégotchi
 
+## 8.3 — Coleções utilizáveis
+
+- A Zona de Lazer passa a funcionar como organização visual da coleção, sem bloquear o uso dos Pokémon.
+- Pokémon das zonas podem participar diretamente de breeding e expedições, além de receber doces e evoluir.
+- Cada cartão da zona ganhou o botão “Mover ao quarto” para preparar o Pokémon para batalhas e jogos.
+- A recuperação das necessidades pausa somente enquanto o Pokémon estiver ocupado e continua quando ele retorna.
+
+## 8.2 — Zonas de Lazer
+
+- Quartos e Boxes receberam filtros por nome, espécie, gênero e tipagem.
+- Cada insígnia permite comprar uma Zona de Lazer por 20.000 PokéCoins, até oito zonas.
+- Cada zona comporta até 12 Pokémon em um cenário animado.
+- Saúde, fome, energia, felicidade e higiene se recuperam gradualmente até 100% e não decaem dentro da zona.
+- A versão inicial incluiu controles para organizar a entrada e a saída dos Pokémon pelas Boxes.
+
+## 8.1 — Novas comidas
+
+- Ração Pokémon adicionada por 350 PokéCoins, recuperando 50 pontos de fome.
+- Ração Pokémon Premium adicionada por 700 PokéCoins, recuperando até 100 pontos de fome.
+- A categoria “Berries” do PokéMart foi renomeada para “Alimentos”.
+- As rações não substituem berries nos presentes diários nem na alimentação do breeding.
+
 ## 8.0 — Gerenciamento de save
 
 - Removido o aviso permanente da troca de domínio.
