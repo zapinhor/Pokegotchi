@@ -1,4 +1,4 @@
-export const EGG_GROUP_LABELS={amorphous:'Amorfo',bug:'Inseto',ditto:'Ditto',dragon:'Dragão',fairy:'Fada',field:'Campo',flying:'Voador',grass:'Planta','human-like':'Humanoide',mineral:'Mineral',monster:'Monstro','no-eggs':'Não descoberto',water1:'Água 1',water2:'Água 2',water3:'Água 3'};
+export const EGG_GROUP_LABELS={amorphous:'Amorfo',indeterminate:'Amorfo',bug:'Inseto',ditto:'Ditto',dragon:'Dragão',fairy:'Fada',field:'Campo',ground:'Campo',flying:'Voador',grass:'Planta',plant:'Planta','human-like':'Humanoide',humanshape:'Humanoide',mineral:'Mineral',monster:'Monstro','no-eggs':'Não descoberto',water1:'Água 1',water2:'Água 2',water3:'Água 3'};
 export const eggGroupLabel=group=>EGG_GROUP_LABELS[group]||group;
 export const eggGroupText=p=>(p?.eggGroups||[]).map(eggGroupLabel).join(' · ')||'Grupo desconhecido';
 

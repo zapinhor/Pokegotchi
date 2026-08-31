@@ -1,5 +1,18 @@
 # Changelog — Pokégotchi
 
+## 8.5 — Zona de Lazer independente
+
+- A Zona de Lazer ganhou uma aba própria, separada dos Quartos.
+- Cada zona pode receber um nome personalizado para organizar coleções temáticas.
+- O cenário muda entre dia, tarde e noite conforme o horário local do jogador.
+- Os Pokémon aparecem maiores no cenário animado.
+
+## 8.4 — Egg Groups após evolução
+
+- Pokémon evoluídos passam a atualizar o Egg Group de acordo com a espécie atual.
+- Saves existentes são reparados automaticamente ao abrir telas que usam os dados dos Pokémon.
+- Lucario e outras evoluções de Pokémon bebê deixam de herdar incorretamente o grupo “Não descoberto”.
+
 ## 8.3 — Coleções utilizáveis
 
 - A Zona de Lazer passa a funcionar como organização visual da coleção, sem bloquear o uso dos Pokémon.
