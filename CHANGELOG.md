@@ -1,5 +1,22 @@
 # Changelog — Pokégotchi
 
+## 8.7 — Login com Google e estatísticas
+
+- A nova tela de conta segue a identidade retrô do site e exibe um Chandelure animado.
+- Login e cadastro ganharam acesso pelo Google, além do fluxo existente por e-mail e senha.
+- O Google Analytics mede visitas somente depois da autorização do visitante.
+- Nenhum nome, e-mail, Pokémon ou conteúdo do save é enviado ao Analytics.
+- As preferências de estatísticas podem ser alteradas novamente nas configurações.
+- Política de Privacidade pública e exclusão da conta com remoção do save na nuvem.
+- O save local só é apagado na exclusão quando o jogador marca essa opção separadamente.
+
+## 8.6 — Conta e save na nuvem
+
+- Cadastro e login por e-mail com confirmação de conta e recuperação de senha.
+- Saves continuam locais e passam a ter uma cópia sincronizada no Supabase.
+- Conflitos entre aparelhos exibem os dois progressos antes de qualquer substituição.
+- Acesso ao banco é restrito por usuário com Row Level Security.
+
 ## 8.5 — Zona de Lazer independente
 
 - A Zona de Lazer ganhou uma aba própria, separada dos Quartos.
