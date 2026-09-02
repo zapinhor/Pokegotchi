@@ -1,5 +1,10 @@
 # Changelog — Pokégotchi
 
+## 8.8 — Mensagens do cadastro
+
+- Avisos de validação, erros e confirmação agora aparecem acima da janela de login e cadastro.
+- O botão de criar conta deixa de parecer inativo quando algum campo precisa ser corrigido.
+
 ## 8.7 — Login com Google e estatísticas
 
 - A nova tela de conta segue a identidade retrô do site e exibe um Chandelure animado.

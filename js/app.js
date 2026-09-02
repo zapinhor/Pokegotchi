@@ -25,7 +25,7 @@ const typeIcons=(types=[])=>`<span class="type-icons">${types.filter(Boolean).ma
 const itemImg=(id,alt='')=>`<img class="item-pixel" src="${itemSprite(id)}" alt="${alt}">`;
 const rarityLabel=e=>({comum:'Comum',incomum:'Incomum',raro:'Raro','muito-raro':'Muito raro'}[e.tier]||'Comum');
 async function playCry(id){if(!state?.soundEnabled)return;try{const d=await pokemon(id);if(d.cry){const a=new Audio(d.cry);a.volume=Math.max(0,Math.min(1,state.cryVolume??.28));await a.play()}}catch{}}
-function toast(msg){const el=$('#toast');el.textContent=msg;el.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove('show'),2800)}
+function toast(msg){const el=$('#toast'),modal=$('#modal');if(modal?.open&&!modal.contains(el))modal.append(el);else if(!modal?.open&&el.parentElement!==document.body)document.body.prepend(el);el.textContent=msg;el.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>{el.classList.remove('show');if(el.parentElement!==document.body)document.body.prepend(el)},2800)}
 function persist(){save(state);updateResources();updateBackupButtons()}
 function updateBackupButtons(){document.querySelectorAll('[data-export-save],#settings-export-save').forEach(button=>{button.disabled=!state;button.title=state?'Baixar ou compartilhar uma cópia da jornada':'Comece ou importe uma jornada primeiro'})}
 function backupFilename(){const trainer=String(state?.trainerName||'treinador').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/gi,'-').replace(/^-|-$/g,'').toLowerCase()||'treinador',date=new Date().toISOString().slice(0,10);return`pokegotchi-save-${trainer}-${date}.json`}
