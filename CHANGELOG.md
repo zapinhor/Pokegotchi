@@ -1,5 +1,12 @@
 # Changelog — Pokégotchi
 
+## 8.9 — Proteção contra robôs
+
+- Login, cadastro e recuperação de senha agora suportam verificação Cloudflare Turnstile.
+- Cada verificação expira após o uso e é renovada automaticamente para a tentativa seguinte.
+- A proteção se adapta à tela de computadores e celulares sem alterar o login pelo Google.
+- A Política de Privacidade passa a informar o uso do Turnstile contra abuso.
+
 ## 8.8 — Mensagens do cadastro
 
 - Avisos de validação, erros e confirmação agora aparecem acima da janela de login e cadastro.
